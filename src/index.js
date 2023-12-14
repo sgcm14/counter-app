@@ -11,5 +11,5 @@ const divRoot = document.querySelector("#root");
 
 // ReactDOM.render(saludo, divRoot);
 const root = createRoot(divRoot);
-// root.render(<PrimeraApp saludo="Hola Mundo"/>);
+// root.render(<PrimeraApp saludo="Hola, Soy Goku"/>);
 root.render(<CounterApp value={5}/>);
